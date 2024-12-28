@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Id</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('https://t3.ftcdn.net/jpg/08/81/10/60/360_F_881106036_rtL2LFz6um6iZx1HW9HBNXLfKb8uqbSr.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        
+        .container {
+            padding: 40px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            width: 30%;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        td {
+            background-color: #fafafa;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+   <div class="container">
+    <h1>Id</h1>
+    <form action="idform" method="post">
+        <div class="form-group">
+            <label for="mail">Email  :</label>
+            <input type="email" id="mail" name="mail" placeholder="Enter mail" required><br><br>
+        </div>
+        <div class="form-group">
+            <label for="depa">Department :</label>
+            <input type="text" id="depa" name="depa" placeholder="Enter Department" required>
+        </div>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+
+
+</body>
+</html>
